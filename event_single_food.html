@@ -1,0 +1,432 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Event_single</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Learn Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/jquery.countdown.css" />
+<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+<!----font-Awesome----->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!----font-Awesome----->
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>
+<!----Calender -------->
+  <link rel="stylesheet" href="css/clndr.css" type="text/css" />
+  <script src="js/underscore-min.js" type="text/javascript"></script>
+  <script src= "js/moment-2.2.1.js" type="text/javascript"></script>
+  <script src="js/clndr.js" type="text/javascript"></script>
+  <script src="js/site.js" type="text/javascript"></script>
+<!----End Calender -------->
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="index.html">辟&nbsp;谣&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 16px">谣言是一只凭着推测、猜疑和臆度吹响的笛子。</span></a>
+        </div>
+        <!--/.navbar-header-->
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
+
+            <ul class="nav navbar-nav">
+                <li >
+                    <a href="index.html" ><i class="fa fa-home icon6 "></i><span>Home</span></a>
+
+                </li>
+                <li >
+                    <a href="login.html"><i class="fa fa-user"></i><span>Login</span></a>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-calendar"></i><span>Events</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="events.html">Event1</a></li>
+                        <li><a href="events.html">Event2</a></li>
+                        <li><a href="events.html">Event3</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+                    <a href="#" ><i class="fa fa-search"></i><span>Search</span></a>
+                    <ul class="dropdown-menu search-form">
+                        <form>
+                            <input type="text" class="search-text" name="s" placeholder="Search...">
+                            <button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#"><i class="fa fa-question"></i><span>FAQ</span></a>
+
+                </li>
+
+                <li >
+                    <a href="feedback.html" ><i class="fa fa-envelope"></i><span>FeedBack</span></a>
+
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <!--/.navbar-collapse-->
+</nav>
+<nav class="navbar nav_bottom" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header nav_2" style="padding-bottom: -20px">
+            <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-megadropdown-tabs" style="height: 60px; float: left" >
+            <img src="images/logo.jpg" style="width: 5%;height: 5%; float: left">
+            <ul class="nav navbar-nav nav_1" style="height: 60px;padding: 10px;font-size: 14px;font-family: simhei;float:left">
+                <li><a href="index.html">主页</a></li>
+
+                <li class="dropdown mega-dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-weight:bold ">学科<span class="caret"></span></a>
+                    <div class="dropdown-menu mega-dropdown-menu">
+                        <div class="container-fluid">
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane active" id="men">
+                                    <ul class="nav-list list-inline">
+                                        <li><a href="events.html"><img src="images/t15_s.jpg" class="img-responsive" alt=""/>化学</a></li>
+                                        <li><a href="events.html"><img src="images/t10_s.jpg" class="img-responsive"  alt=""/>医学</a></li>
+                                        <li><a href="events.html"><img src="images/t12_s.jpg" class="img-responsive" alt=""/>物理</a></li>
+                                        <li><a href="events.html"><img src="images/t11_s.jpg"  class="img-responsive"  alt=""/>生物</a></li>
+                                        <li><a href="events.html"><img src="images/t14_s.jpg"  class="img-responsive" alt=""/>环境</a></li>
+                                        <li><a href="events.html"><img src="images/t13_s.jpg"  class="img-responsive" alt=""/>健康</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Nav tabs -->
+
+                    </div>
+                </li>
+                <li><a href="events.html">速读</a></li>
+                <li><a href="events.html">热点</a></li>
+                <li><a href="events.html">前沿</a></li>
+                <li><a href="event_single_orange.html">视觉</a></li>
+                <li><a href="events.html">评论</a></li>
+
+                <li><a href="about.html">关于</a></li>
+
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div>
+    <div style="background-color:#A2A2A2 ;height: 2px"></div>
+</nav>
+<!-- banner -->
+  <div class="courses_banner">
+  	<div class="container">
+
+  	</div>
+  </div>
+    <!-- //banner -->
+	<div class="courses_box1">
+	   <div class="container">
+	   	  <div class="col-md-4">
+	   	  	<div class="cal1 cal_2"><div class="clndr"><div class="clndr-controls"><div class="clndr-control-button"><p class="clndr-previous-button">previous</p></div><div class="month">September 2015</div><div class="clndr-control-button rightalign"><p class="clndr-next-button">next</p></div></div><table class="clndr-table" border="0" cellspacing="0" cellpadding="0"><thead><tr class="header-days"><td class="header-day">S</td><td class="header-day">M</td><td class="header-day">T</td><td class="header-day">W</td><td class="header-day">T</td><td class="header-day">F</td><td class="header-day">S</td></tr></thead><tbody><tr><td class="day past adjacent-month last-month calendar-day-2015-08-30"><div class="day-contents">30</div></td><td class="day past adjacent-month last-month calendar-day-2015-08-31"><div class="day-contents">31</div></td><td class="day today calendar-day-2015-09-01"><div class="day-contents">1</div></td><td class="day calendar-day-2015-09-02"><div class="day-contents">2</div></td><td class="day calendar-day-2015-09-03"><div class="day-contents">3</div></td><td class="day calendar-day-2015-09-04"><div class="day-contents">4</div></td><td class="day calendar-day-2015-09-05"><div class="day-contents">5</div></td></tr><tr><td class="day calendar-day-2015-09-06"><div class="day-contents">6</div></td><td class="day calendar-day-2015-09-07"><div class="day-contents">7</div></td><td class="day calendar-day-2015-09-08"><div class="day-contents">8</div></td><td class="day calendar-day-2015-09-09"><div class="day-contents">9</div></td><td class="day event calendar-day-2015-09-10"><div class="day-contents">10</div></td><td class="day event calendar-day-2015-09-11"><div class="day-contents">11</div></td><td class="day event calendar-day-2015-09-12"><div class="day-contents">12</div></td></tr><tr><td class="day event calendar-day-2015-09-13"><div class="day-contents">13</div></td><td class="day event calendar-day-2015-09-14"><div class="day-contents">14</div></td><td class="day calendar-day-2015-09-15"><div class="day-contents">15</div></td><td class="day calendar-day-2015-09-16"><div class="day-contents">16</div></td><td class="day calendar-day-2015-09-17"><div class="day-contents">17</div></td><td class="day calendar-day-2015-09-18"><div class="day-contents">18</div></td><td class="day calendar-day-2015-09-19"><div class="day-contents">19</div></td></tr><tr><td class="day calendar-day-2015-09-20"><div class="day-contents">20</div></td><td class="day event calendar-day-2015-09-21"><div class="day-contents">21</div></td><td class="day event calendar-day-2015-09-22"><div class="day-contents">22</div></td><td class="day event calendar-day-2015-09-23"><div class="day-contents">23</div></td><td class="day calendar-day-2015-09-24"><div class="day-contents">24</div></td><td class="day calendar-day-2015-09-25"><div class="day-contents">25</div></td><td class="day calendar-day-2015-09-26"><div class="day-contents">26</div></td></tr><tr><td class="day calendar-day-2015-09-27"><div class="day-contents">27</div></td><td class="day calendar-day-2015-09-28"><div class="day-contents">28</div></td><td class="day calendar-day-2015-09-29"><div class="day-contents">29</div></td><td class="day calendar-day-2015-09-30"><div class="day-contents">30</div></td><td class="day adjacent-month next-month calendar-day-2015-10-01"><div class="day-contents">1</div></td><td class="day adjacent-month next-month calendar-day-2015-10-02"><div class="day-contents">2</div></td><td class="day adjacent-month next-month calendar-day-2015-10-03"><div class="day-contents">3</div></td></tr></tbody></table></div></div>
+              <div class="author-box author-box1">
+                  <div class="author-box-left"><img src="images/t13.png" class="img-responsive" alt=""/></div>
+                  <div class="author-box-right">
+                      <h4>作者：<a href="#">JR Smith</a></h4>
+                      <p style="font-size: 14px;font-family: simhei">食品工程博士、辟谣常驻作者</p>
+                      <br>
+                      <div>作者其他文章</div>
+                      <br>
+                      <div>
+                          <li> <a href="events.html" >“不明白色液体”处理蒜薹，这真是泡了甲醛吗？</a></li>
+
+
+                          <br>
+                          <li> <a href="events.html" >黑作坊违法，但“人造海蜇”其实没那么可怕</a></li>
+
+
+                          <br>
+                          <li> <a href="events.html" >柑橘打甜蜜素？“农民爆料”能信吗？</a></li>
+
+
+                          <br>
+                          <li> <a href="events.html" >用“饿了么”祭旗，网络食品经营预计全面收紧</a></li>
+
+
+                          <br>
+                          <li> <a href="events.html" >生吃淡水鱼，当心染上肝吸虫！</a></li>
+                      </div>
+                  </div>
+                  <div class="clearfix"> </div>
+                  <br>
+                  <div style="background-color: #A2A2A2;height: 2px"></div>
+              </div>
+
+
+           <section class="slider">
+            	<h3>拓展阅读</h3>
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
+							<div class="banner-info1">
+							   <p>现在的荔枝几乎都是用药水浸泡的，吃后会引起发烧，还可能引发手足口病。</p>
+                                <br>
+							   <h5><a href="#">Laor, </a>&nbsp;&nbsp;&nbsp;&nbsp;10-10-2016</h5>
+							</div>
+						</li>
+						<li>
+							<div class="banner-info1">
+							   <p>科学家称，用玉米油或葵花籽油等植物油做饭，
+                                   可能导致包括癌症在内的多种疾病。
+                                   科学家推荐使用橄榄油、椰子油、黄油甚至猪油替代普通植物油。</p>
+                                <br>
+							   <h5><a href="#">Boss ,</a>&nbsp;&nbsp;&nbsp;&nbsp;11-13-2016</h5>
+							</div>
+						</li>
+						<li>
+							<div class="banner-info1">
+							   <p>野生黑枸杞富含花青素，它抗氧化、抗衰老、美容养颜、改善睡眠、预防癌症，还能增强免疫力……</p>
+                                <br>
+                                <h5><a href="#">Suffered ,</a>&nbsp;&nbsp;&nbsp;&nbsp;10-13-2016</h5>
+							</div>
+						</li>
+				    </ul>
+				 </div>
+	      </section>
+              <br>
+              <div style="background-color: #A2A2A2;height: 2px"></div>
+		</div>
+
+		<div class="col-md-8 detail">
+	       <img src="images/食物_single.jpg" class="img-responsive" alt=""/>
+	       <h3>再说食物相克</h3>
+	        <ul class="meta-post">
+                <li class="author">
+                    by <a href="#">小九</a>
+                </li>
+                <li class="view">
+                   19-10-2016
+                </li>
+                <li class="category">
+                    123
+                </li>                             
+           </ul>
+           <p ><h3 style="font-family:simhei;font-size: 18px ">来源：</h3>
+
+            <div style="color: #001a35">&nbsp;&nbsp;&nbsp;&nbsp;食物相克的来源现在已经很难考证，一说是来源于中医的药食同源理论，古代中医记载的“十八反”“十九畏”是针对药物的使用的，而中医又一直认为药物和食物是相通的，所以在食物上面理应也有相克之说。我则更偏向与相信这些食物相克来源于民间的经验——其实我们翻开古代医书不难发现，其实很多的药方和疗法同样是首先来自民间经验和个案，
+                然后再用理论去解释该现象，从某种意义上，古医药书就是民间经验的摘录。</div>
+            </p>
+
+            <p><h3 style="font-family:simhei;font-size: 18px ">研究：</h3>
+
+            <div style="color: #001a35">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1935年我国生物化学家郑集曾经搜集了184对“相克”的食物，从中选出14对在日常生活中比较容易遇到的组合，用老鼠、狗和猴子做实验。他本人和一名同事也试验了其中的7种组合。在食用24小时内观察实验动物和人的表情、行为、体温及粪便颜色与次数等，都很正常，没有中毒的迹象。在郑集试验的“相克”食物中，就包括螃蟹与柿子、大葱与蜂蜜。郑集碰巧是我国最长寿的科学家之一，活了110岁。近来中国营养学会分别与兰州大学公共卫生学院、哈尔滨医科大学合作，做了更严格一些的“食物相克”实验。兰州大学的实验选了5组传说会相克的食物组合，由100名健康志愿者食用，连续吃了一周，没有发现哪一组食物会引起异常。哈尔滨医科大学的实验则另外选了12组食物组合，有30名志愿者连续吃3天，也未发现异常。
+
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;既然没有传说中的食物同食中毒现象，那么古人那些经验是如何产生的？又是如何流传下来的呢？
+            </div>
+            </p>
+            <p>
+            <h3 style="font-family:simhei;font-size: 18px ">食物“相克”与身体不适</h3>
+
+            <div style="color: #001a35">&nbsp;&nbsp;&nbsp;&nbsp;首先就是食物不洁。由于食物清洗不干净，加热不彻底，食物表面感染的病菌会入侵人体造成腹泻等不适。例如有一条食物相克说墨鱼和茄子同食会造成霍乱。而其实霍乱是由于霍乱弧菌感染引起的急性肠道传染病，而这种霍乱弧菌经常污染的食物就是鱼虾蟹等水产品，我们不难猜到这条相克是因为古人在吃了不洁墨鱼的时候同时吃了茄子，于是可怜的茄子就遭了殃，成为霍乱的原因。此外还有狗肉与狗肾同食会引起痢疾等等也是这个原因。
+
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;其次是食用方式不当。一些食物虽然已经被食用多年，但依然会有很多人有食用不当而产生食物中毒等不适现象。例如豆角含有大量生物碱，如果没有彻底煮熟，食用后会出现恶心、呕吐、上腹部不适、腹痛、腹泻、手脚发凉，头痛、头晕，四肢麻木等，如果处理不好甚至会有生命危险。又如前面所说的柿子，大量生吃也会产生胃柿石。
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;还有就是过敏现象。海鲜过敏、花生过敏、鸡蛋过敏。吃了某种食物后，突然发生恶心、腹痛和呕吐的症状，或者全身起满了大大小小的红色疱疹，这就是食物过敏的典型症状。研究发现，亚洲人的食物过敏情况近年来一直呈上升趋势，鸡蛋、乳制品、腰豆、香蕉和芝麻这5种食物最容易引起过敏。从理论上来说，
+                只要是含有蛋白质的食物，都有可能造成过敏。小麦、花生、酱油、坚果类、鱼及甲壳类食物也是常见食物过敏原。
+
+            </div>
+            </p>
+
+            <p>
+            <h3 style="font-family:simhei;font-size: 18px ">化学反应的可能性</h3>
+
+            <div style="color: #001a35">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;食物相克，如果用现代的思维去理解，其实就是两种食物所含有的化学物质相遇发生反应，产生某种危害人体健康的毒素。VC和虾的“相克”就是这种思路下产生的典型组合。但是根据计算，要产生有毒害作用的砒霜，需要一次吃下150公斤虾。
+                事实上海产品所含的绝大部分是稳定的有机砷，里面极其微量的无机砷在体内两天就可以代谢出去。</div>
+
+            </p>
+            <p>
+            <h3 style="font-family:simhei;font-size: 18px ">结论：</h3>
+
+            <div style="color: #001a35">&nbsp;&nbsp;&nbsp;&nbsp;因此我们没有必要为了一种理论上存在的可能而提心吊胆，
+                等到真正发现了，自然会通过可靠的途径在世界范围内发布警告
+                （例如药物上的“相克”——双硫仑样反应），
+                而现在既然没有此类警告，而那些所谓的相克致死的食物表并没有得到重视，
+                这就已经从另一个角度说明了它们不是真的。 </div>
+            </p>
+            <br><br><br>
+
+			 <div class="comment_section">
+			 	<h4 style="font-size: 20px">热门评论</h4>
+                 <br>
+			 	<ul class="comment-list">
+                   <li>
+				     <div class="author-box">
+				       <div class="author-box_left"><img src="images/t13.png" class="img-responsive" alt=""/></div>
+				       <div class="author-box_right">
+				        <h5><a href="#">十九少</a><span class="pull-right"><a class="comment-reply-link" href="#">回复</a></span></h5>
+			            <span class="m_1">10-07-2016 </span>
+			            <p>附：一些常见的“食物相克”真相
+                            <br>http://www.douban.com/group/topic/23036979/</p>
+				
+				      </div> 
+				      <div class="clearfix"> </div>
+				     </div>
+				  </li>
+                  <li>
+				     <div class="author-box">
+				       <div class="author-box_left"><img src="images/author.png" class="img-responsive" alt=""/></div>
+				       <div class="author-box_right">
+				        <h5><a href="#">毛罗</a><span class="pull-right"><a class="comment-reply-link" href="#">回复</a></span></h5>
+			            <span class="m_1">10-15-2016</span>
+                            <p>学习了，不过吃螃蟹的时候，还是不敢吃柿子。要明白容易，要克服心理障碍还有困难啊，。呵呵</p>
+				
+				      </div> 
+				      <div class="clearfix"> </div>
+				     </div>
+				  </li>
+                  <ul class="children">
+                    <li>
+				     <div class="author-box">
+				       <div class="author-box_left"><img src="images/author.png" class="img-responsive" alt=""/></div>
+				       <div class="author-box_right">
+				        <h5><a href="#">老王</a><span class="pull-right"><a class="comment-reply-link" href="#">回复</a></span></h5>
+			            <span class="m_1">10-13-2016</span>
+			            <p>听说了很多食物相克的说法，但是无法实践，因为总是迅速就忘记了，所以……想吃什么吃什么。</p>
+				
+				      </div> 
+				      <div class="clearfix"> </div>
+				     </div>
+				  </li>
+				</ul>
+              </ul>
+			 </div>
+            <form class="comment-form">
+
+                <div class="col-md-6 comment-form-left">
+                    <input type="text" placeholder="Name" value="" id="author" name="author" class="form-control">
+                    <input type="text" class="form-control" placeholder="Email" value="" id="email" name="email">
+                </div>
+                <div class="col-md-6 comment-form-right">
+                    <textarea name="comment" aria-required="true" id="comment" class="form-control" placeholder="Comment"></textarea>
+                </div>
+                <div class="clearfix"> </div>
+                <div class="form-submit">
+                    <input name="submit" type="submit" id="submit" class="submit_1 btn btn-primary btn-block" value="留&nbsp;&nbsp;&nbsp;&nbsp;言">
+                </div>
+            </form>
+		 </div>
+	     <div class="clearfix"> </div>
+	   </div>
+	</div>
+    <div class="footer">
+        <div class="container">
+            <div class="col-md-3 grid_4" style="margin-right: 170px">
+                <h3>About Us</h3>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"以公众有所误解的科学知识和事件作为主体，宣传正确科学理论，解释其背后的正确科学理论，引导公众正确认识科学。"</p>
+                <ul class="social-nav icons_2 clearfix">
+                    <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="facebook"> <i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 grid_4" style="margin-right: 60px">
+                <h3>Quick Links</h3>
+                <ul class="footer_list">
+                    <li><a href="http://www.guokr.com/">-  果壳科技有意思</a></li>
+                    <li><a href="http://songshuhui.net/">-  科学松鼠会</a></li>
+                    <li><a href="http://www.sciencenet.cn/">-  科学网</a></li>
+                    <li><a href="http://www.guokr.com/scientific/">-   科学人</a></li>
+                    <li><a href="http://www.guokr.com/scientific/channel/fact/">-   谣言粉碎机</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 grid_4">
+                <h3>Contact Us</h3>
+                <table class="table_working_hours">
+                    <tbody>
+                    <tr class="opened_1">
+                        <td class="day_label">School</td>
+                        <td class="day_value">华中科技大学</td>
+                    </tr>
+                    <tr class="opened">
+                        <td class="day_label">地址</td>
+                        <td class="day_value">湖北省武汉市</td>
+                    </tr>
+
+                    <tr class="opened">
+                        <td class="day_label">邮编</td>
+                        <td class="day_value">712100</td>
+                    </tr>
+                    <tr class="opened">
+                        <td class="day_label"></td>
+                        <td class="day_value"></td>
+                    </tr>
+                    <tr class="closed">
+                        <td class="day_label">电话：</td>
+                        <td class="day_value closed"><span>1588888****</span></td>
+                    </tr>
+                    <tr class="closed">
+                        <td class="day_label">Email：</td>
+                        <td class="day_value closed"><span> <a href="454737806@qq.com">info(at)rumor.com</a></span></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="clearfix"> </div>
+            <div class="copy">
+                <p>Copyright &copy; 2015.Company name All rights reserved.<a target="_blank" href="http://www.hust.edu.cn/">华中科技大学</a></p>
+            </div>
+        </div>
+    </div>
+<!-- FlexSlider -->
+<link href="css/flexslider.css" rel='stylesheet' type='text/css' />
+  <script defer src="js/jquery.flexslider.js"></script>
+  <script type="text/javascript">
+	$(function(){
+	  SyntaxHighlighter.all();
+	});
+	$(window).load(function(){
+	  $('.flexslider').flexslider({
+		animation: "slide",
+		start: function(slider){
+		  $('body').removeClass('loading');
+		}
+	  });
+	});
+  </script>
+<!-- FlexSlider -->
+</body>
+</html>	
